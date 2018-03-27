@@ -1,8 +1,8 @@
 {
   "name": "hidedubbed",
   "private": true,
-  "version": "0.0.0",
-  "description": "ピカデリーの一覧から吹き替えを消します。",
+  "version": "0.0.1",
+  "description": "ピカデリーなどの松竹映画の予約サイトの一覧から吹き替えを消します。",
   "scripts": {
     "start": "npm run dev:chrome",
     "build": "npm run build:chrome",
