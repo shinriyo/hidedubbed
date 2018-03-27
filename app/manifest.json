@@ -5,7 +5,7 @@
   "content_scripts": [
     {
       "matches": [
-        "https://www.smt-cinema.com/site/shinjuku/"
+        "https://www.smt-cinema.com/site/*"
       ],
       "js": [
         "scripts/script.js"
