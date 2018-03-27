@@ -13,9 +13,12 @@ if (h2Node.length > 0) {
                 if (node) {
                     const parent = node.parentNode;
                     if (parent) {
-                        let granpa = parent.parentNode;
-                        (granpa as HTMLElement).remove();
-                        (granpa as HTMLElement).style.display = 'none';
+                        const granpa = parent.parentNode;
+                        if (granpa) {
+                            const grandgranpa = granpa.parentNode;
+                            (grandgranpa as HTMLElement).remove();
+                            (grandgranpa as HTMLElement).style.display = 'none';
+                        }
                     }
                 }
             }
